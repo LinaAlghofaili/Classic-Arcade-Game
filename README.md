@@ -12,4 +12,4 @@ You can collect lives by picking hearts up!
 
 # To play
 
-Click [this link](https://rawgit.com/LinaAlghofaili/Classic-Arcade-Game/master/index.html)
+Click [this link](https://cdn.rawgit.com/LinaAlghofaili/Classic-Arcade-Game/1e206632/index.html)
