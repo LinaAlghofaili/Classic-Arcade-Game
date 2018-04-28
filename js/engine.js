@@ -163,7 +163,7 @@ var Engine = (function(global) {
             for (row = 0; row < numRows; row++) {
                 for (col = 0; col < numCols; col++) {
                     ctx.drawImage(Resources.get(rowImages[row]), col * 101, row * 83);
-                    ctx.fillStyle = "red";
+                    ctx.fillStyle = "purple";
                     ctx.font = "40px Comic Sans MS";
                     ctx.textAlign = "center";
                     ctx.fillText("Press Enter To Start!", canvas.width/2, canvas.height/2.1);
