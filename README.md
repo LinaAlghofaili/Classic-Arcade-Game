@@ -4,7 +4,7 @@
 # Instructions
 
 To run game locally, download the repository by clicking the green button in the right of screen, extract zip file and then open index.html file in your browser.
-Or you can directly click [this link](https://cdn.rawgit.com/LinaAlghofaili/Classic-Arcade-Game/1e206632/index.html)
+Or you can directly click [this link](https://rawgit.com/LinaAlghofaili/Classic-Arcade-Game/master/index.html)
 
 
 # Game Rules
