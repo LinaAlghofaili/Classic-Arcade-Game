@@ -172,6 +172,7 @@ Player.prototype.render = function() {
 
 // Move the player according to keys pressed
 Player.prototype.handleInput = function(allowedKeys) {
+    'use strict';
     switch (allowedKeys) {
         case "left":
             //check for wall, otherwise move left
@@ -188,9 +189,10 @@ Player.prototype.handleInput = function(allowedKeys) {
         case "up":
             //check if player reached water, reset his position
             // otherwise move up
-            if (this.y <= 0) {
+            if (this.y < 0) {
                 this.x = 200;
                 this.y = 400;
+                alert("YOU WON!");
             } else {
                 this.y -= 83;
             }
